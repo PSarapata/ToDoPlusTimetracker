@@ -1,23 +1,20 @@
 ![Coders-Lab-1920px-no-background](https://user-images.githubusercontent.com/152855/73064373-5ed69780-3ea1-11ea-8a71-3d370a5e7dd8.png)
 
-# Kilka ważnych informacji
+Hi!
 
-Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
+This app in its' basic form was a Coders Lab workshop and I based API Service on the code prepared by my mentors. Therefore, please be advised not to
+reuse it commercially!
 
-## Jak zacząć?
+I added some functionalities, such as e.g.:
+* option to hide loaded operations (with a checkbox at the top or for a single task with a button), 
+* refresh button at the bottom of the page (works exactly the same as your browser refresh button),
+* TIMER !!! <- It updates the timeSpent attribute of an operation every second and registers it with API. When time reaches 0, operation expires.
+* remove time button - resets timeSpent attribute of an operation, registers with API.
+* option to remove completed (finished) tasks - deletes with API.
 
-1. Stwórz [*fork*](https://guides.github.com/activities/forking/) repozytorium z zadaniami.
-2. Sklonuj repozytorium na swój komputer. Użyj do tego komendy `git clone adres_repozytorium`
-Adres repozytorium możesz znaleźć na stronie repozytorium po naciśnięciu w guzik "Clone or download".
-3. Rozwiąż zadania i skomituj zmiany do swojego repozytorium. Użyj do tego komend `git add nazwa_pliku`.
-Jeżeli chcesz dodać wszystkie zmienione pliki użyj `git add .` 
-Pamiętaj że kropka na końcu jest ważna!
-Następnie skommituj zmiany komendą `git commit -m "nazwa_commita"`
-4. Wypchnij zmiany do swojego repozytorium na GitHubie.  Użyj do tego komendy `git push origin master`
-5. Stwórz [*pull request*](https://help.github.com/articles/creating-a-pull-request) do oryginalnego repozytorium, gdy skończysz wszystkie zadania.
+Also, the base code was slightly bugged so I corrected it.
 
-Poszczególne zadania rozwiązuj w odpowiednich plikach.
+Check out quick video presentation here:
 
-### Poszczególne zadania rozwiązuj w odpowiednich plikach.
 
-**Repozytorium z ćwiczeniami zostanie usunięte 2 tygodnie po zakończeniu kursu. Spowoduje to też usunięcie wszystkich forków, które są zrobione z tego repozytorium.**
+                                    https://www.youtube.com/watch?v=CYI9O-AcLTA&feature=youtu.be
